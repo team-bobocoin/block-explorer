@@ -1,8 +1,8 @@
 {
     "public":{
         "chainName": "Cosmos Testnet",
-        "chainId": "{Chain ID}",
-        "gtm": "{Add your Google Tag Manager ID here}",
+        "chainId": "charitychain",
+        "gtm": "",
         "slashingWindow": 10000,
         "uptimeWindow": 250,
         "initialPageSize": 30,
@@ -12,23 +12,23 @@
         "bech32PrefixValPub": "cosmosvaloperpub",
         "bech32PrefixConsAddr": "cosmosvalcons",
         "bech32PrefixConsPub": "cosmosvalconspub",
-        "stakingDenom": "ATOM",
-        "mintingDenom": "uatom",
-        "stakingFraction": 1000000,
+        "stakingDenom": "stake",
+        "mintingDenom": "crt",
+        "stakingFraction": 10000,
         "gasPrice": 0.02,
-        "coingeckoId": "cosmos"
+        "coingeckoId": "charity"
     },
-    "genesisFile": "{Replace the address of the genesis file of the chain}",
+    "genesisFile": "http://localhost:3000/genesisFile",
     "remote":{
-        "rpc":"https://gaia-seeds.interblock.io",
-        "lcd":"https://gaia-seeds.interblock.io:1317"
+        "rpc":"http://localhost:26657",
+        "lcd":"http://localhost:1317"
     },
     "debug": {
         "startTimer": true,
         "readGenesis": true
     },
     "bin":{
-        "gaiadebug": "/path/to/gaiadebug"
+        "gaiadebug": ""
     },
     "params":{
         "startHeight": 0,
