@@ -24,7 +24,7 @@ Forbole Block Explorer for Cosmos
 ```
 meteor npm install
 meteor update
-meteor --settings settings.json
+meteor --settings settings.json --port 8080
 ```
 
 ### Run in production
