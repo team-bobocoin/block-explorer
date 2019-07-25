@@ -1,6 +1,6 @@
 {
     "public":{
-        "chainName": "Cosmos Testnet",
+        "chainName": "Charity Chain Testnet",
         "chainId": "charitychain",
         "gtm": "",
         "slashingWindow": 10000,
